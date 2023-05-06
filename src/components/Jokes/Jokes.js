@@ -32,7 +32,7 @@ const Jokes = () => {
         <h2>Random Joke Generator</h2>
         <BsEmojiSmileUpsideDown className='smiley --mb' alt='smiley'/>
         <hr />
-        <select onChange={handleCategoryChange} value={categoryIndex}>
+        <select className='--my --form-control select' onChange={handleCategoryChange} value={categoryIndex}>
           {jokeCategories.map((category, index) => (
             <option key={index} value={index}>{category.name}</option>
           ))}
