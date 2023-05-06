@@ -1,0 +1,19 @@
+.jokes-sec {
+    background-color: var(--dark-blue);
+    height: 100vh;
+
+    .joke {
+        width: 60%;
+        max-width: 500px;
+
+        .smiley {
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+            background-color: rgba(255, 255, 0, 0.849);
+        }
+    }
+}
+
+
+
